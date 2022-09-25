@@ -1,0 +1,26 @@
+package miniProjeAsalSayi;
+
+import java.util.Iterator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 31;
+		int remainder = number % 2 ; //25 % 2 = kalan değeri
+		//System.out.println(remainder);
+		
+		for (int i = 2; i < number-1; i++)
+		{
+			if (number % i == 0) {
+				System.out.println("Sayı asal değildir çünkü " + i +" sayısına bölündü");
+			}
+			else if (i==number && number % i != 0) {
+				System.out.println("Sayı asaldır çünkü hiçbir sayıya bölünmedi");
+			}
+			
+		}
+		
+
+	}
+
+}

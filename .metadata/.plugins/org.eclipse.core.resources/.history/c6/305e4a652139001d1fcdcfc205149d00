@@ -1,0 +1,17 @@
+package variables;
+
+public class Main {
+
+	public static void main(String[] args) {
+	//case sensitive
+		
+		System.out.println("Öğrenci Sayım : 10");
+		System.out.println("Öğrenci Sayım : 10");
+		System.out.println("Öğrenci Sayım : 10");
+		System.out.println("Öğrenci Sayım : 10");
+
+		
+
+	}
+
+}

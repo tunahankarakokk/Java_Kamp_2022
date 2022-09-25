@@ -1,0 +1,17 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugün hava çok güzel";//string bir karakter dizisidir.
+		//stringdeki elemanların her biri ayrı ayrı mevcuttur
+		System.out.println(mesaj);
+		
+		System.out.println("Eleman Sayısı : " + mesaj.length());//içerisindeki karakter sayısı
+		System.out.println("5. Eleman : " + mesaj.charAt(4));
+		//mesaj içerisindeki 5.eleman olan n karakteri gösterilir
+		
+		
+	}
+
+}
