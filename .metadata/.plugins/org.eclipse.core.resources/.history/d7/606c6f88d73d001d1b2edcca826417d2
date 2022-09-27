@@ -1,0 +1,26 @@
+package classesWithAttributes;
+
+public class Product {
+	/*
+	//attribute | field
+	int id;//bu şekilde tanımladığınız zaman public olarak tanımlamış 
+		   //olursunuz default olarak
+	String name;
+	String description;
+	double price;
+	int stockAmount;
+	String renk;
+	//private : sadece tanımlandığı blokta geçerli demektir
+	*/
+	//getter : getir al demektir bir değeri okumaya yönelik işlemdir
+	//setter : set kurmak ayarlamak demektir.bir nesneye değer vermeye yarar
+	private int id;
+	private String name;
+	private String description;
+	private double price;
+	private int stockAmount;
+	private String renk;
+	private String kod;
+	
+	
+}

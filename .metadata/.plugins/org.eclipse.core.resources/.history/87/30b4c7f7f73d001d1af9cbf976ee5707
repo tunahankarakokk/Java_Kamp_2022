@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+	Customer customer = new Customer();
+	Employee employee = new Employee();
+	customer.id = 1;
+	customer.firstName = "Tunahan";
+	customer.lastName = "Karakök";
+	customer.age = 24;
+	customer.email ="abc@gmail.com";
+	
+	customer.id = 2;
+	customer.firstName = "Steve";
+	customer.lastName = "Harder";
+	customer.age = 21;
+	customer.email ="steve@gmail.com";
+		
+	}
+
+}
